@@ -1,0 +1,50 @@
+.card {
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 0 solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+.card-body {
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1rem;
+}
+
+/* change Password*/
+.auth-row {
+	background: white;
+	border-radius: 30px;
+	box-shadow: 12px 12px 22px grey;
+}
+.theme {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.btn1 {
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	background-color: #339dff;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn1:hover {
+	background: white;
+	border: 1px solid;
+	color: #339dff;
+}
